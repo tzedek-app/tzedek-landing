@@ -3,4 +3,5 @@ body {
     background: #FFEFDF;
     font-family: "ADLaM Display", Arial, sans-serif;
     color: #00446E;
+    overflow: auto
 }

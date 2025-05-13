@@ -1,0 +1,22 @@
+button {
+    font-family: "ADLaM Display", Arial, sans-serif;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.6vw;
+    align-self: center;
+    padding: 0.7vw 4vw;
+}
+
+.button-blue {
+    background: #218AFF;
+    color: white;
+}
+
+.button-gray {
+    background: #D8D8D8;
+    color: #313131;
+}
+
+.button-short {
+    padding: 0.7vw 3vw;
+}
