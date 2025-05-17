@@ -1,0 +1,39 @@
+.sense-block {
+    height: 92vh;
+    width: 93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 0 auto;
+}
+
+.text-container {
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.sense-heading {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.little-heading {
+    font-size: 2.3vw;
+    margin: 0;
+    margin-bottom: -1rem;
+}
+
+.sense-text {
+    font-size: 2.5vw;
+    margin: 0;
+    margin-bottom: 1.5rem;
+}
+
+.sense-children {
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    object-fit: contain;
+}
+

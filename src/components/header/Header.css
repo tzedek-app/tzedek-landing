@@ -9,3 +9,31 @@ header {
     font-size: 1.9vw;
     margin: 0 auto;
 }
+
+.nav-item {
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 5px;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2196F3;
+    transition: width 0.3s ease, transform 0.3s ease;
+    transform-origin: left;
+}
+
+.nav-item:hover {
+    color: #2196F3;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transform: scaleX(1);
+}
