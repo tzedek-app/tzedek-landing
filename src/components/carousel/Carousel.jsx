@@ -11,19 +11,19 @@ export default function Carousel() {
         {
             heading: "JUST SEND A MESSAGE",
             text: "All through Telegram. No apps, no forms — just send a message",
-            image: "/image.png",
+            image: "image.png",
             button_text: "Messages",
         },
         {
             heading: "Question History",
             text: "All your questions and answers are saved — revisit them anytime. Easy access to your full history in one click",
-            image: "/image.png",
+            image: "image.png",
             button_text: "Memory",
         },
         {
             heading: "multilingualism",
             text: "Russian, English, and Hebrew — switch to your preferred language anytime. The interface and all messages are fully localized",
-            image: "/image.png",
+            image: "image.png",
             button_text: "Languages",
         },
     ];

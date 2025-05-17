@@ -16,14 +16,14 @@ export default function App() {
                 text="AI-driven platform that helps people understand their legal and civil rights"
                 little-header="TZEDEK"
                 text-children={<Button blue={true} short={false} href="#functions">Learn More</Button>}>
-                <img src="/image.png" alt="Tzedek icon" style={{ "width": "100%" }} />
+                <img src="image.png" alt="Tzedek icon" style={{ "width": "100%" }} />
             </SenseBlock>
             <Carousel />
             <SenseBlock
                 heading="don't be afraid"
                 text="Tzedek is open-source, anyone can explore the code, or adapt it for their own needs">
                 <div>
-                    <img src="/qr-code.svg" alt="Tzedek icon" style={{ borderRadius: "20%", "width": "100%", "mixBlendMode": "multiply" }} />
+                    <img src="qr-code.svg" alt="Tzedek icon" style={{ borderRadius: "20%", "width": "100%", "mixBlendMode": "multiply" }} />
                     <Button
                         blue={false}
                         short={true}
