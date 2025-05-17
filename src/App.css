@@ -5,3 +5,7 @@ body {
     color: #00446E;
     overflow: auto
 }
+
+html {
+    scroll-behavior: smooth;
+}

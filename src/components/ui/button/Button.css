@@ -1,10 +1,13 @@
-button {
+.button {
     font-family: "ADLaM Display", Arial, sans-serif;
     border-radius: 50px;
     border: none;
     font-size: 1.6vw;
     align-self: center;
     padding: 0.7vw 4vw;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .button-blue {
@@ -22,6 +25,25 @@ button {
     animation: gradientShift 3s ease infinite;
 }
 
+.button-gray {
+    background: #D8D8D8;
+    color: #313131;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-gray:hover {
+    background: linear-gradient(45deg, #D8D8D8, #E8E8E8, #B8B8B8);
+    background-size: 200% 200%;
+    transform: scale(1.02);
+    color: #313131;
+    box-shadow: 0 0 12px rgba(216, 216, 216, 0.7);
+    animation: gradientShift 4s ease-in-out infinite;
+}
+
+.button-short {
+    padding: 0.3vw 0.5vw;
+}
+
 @keyframes gradientShift {
     0% {
         background-position: 0% 50%;
@@ -32,23 +54,4 @@ button {
     100% {
         background-position: 0% 50%;
     }
-}
-
-.button-gray {
-    background: #D8D8D8;
-    color: #313131;
-    transition: all 0.3s ease-in-out;
-}
-
-.button-gray:hover {
-    background: linear-gradient(45deg, #D8D8D8, #313131, #D8D8D8);
-    background-size: 200% 200%;
-    transform: scale(1.05);
-    color: white;
-    box-shadow: 0 0 15px rgba(49, 49, 49, 0.5);
-    animation: gradientShift 3s ease infinite;
-}
-
-.button-short {
-    padding: 0.3vw 1vw;
 }

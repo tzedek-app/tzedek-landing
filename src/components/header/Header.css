@@ -1,5 +1,6 @@
 header {
     position: sticky;
+    top: 0;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -8,6 +9,8 @@ header {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     font-size: 1.9vw;
     margin: 0 auto;
+    background-color: #FFEFDF;
+    z-index: 1000;
 }
 
 .nav-item {
@@ -15,6 +18,10 @@ header {
     cursor: pointer;
     transition: color 0.3s ease;
     padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #00446E;
 }
 
 .nav-item::after {

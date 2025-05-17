@@ -1,10 +1,9 @@
 import React from 'react';
 import "./SenseBlock.css"
-import Button from '../button/Button';
 
 export default function SenseBlock({ children, ...props }) {
     return (
-        <div className="sense-block">
+        <div className="sense-block" id={props.id}>
             <div className="text-container">
                 {props['little-header'] && (
                     <p className="little-heading">{props['little-header']}</p>
