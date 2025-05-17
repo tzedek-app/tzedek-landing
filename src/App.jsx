@@ -4,6 +4,7 @@ import SenseBlock from "./components/ui/sense_block/SenseBlock.jsx";
 import Button from "./components/ui/button/Button";
 import Carousel from "./components/carousel/Carousel.jsx";
 import ButtonsHell from "./components/buttons-hell/ButtonsHell.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 export default function App() {
 
@@ -33,6 +34,7 @@ export default function App() {
                 </div>
             </SenseBlock>
             <ButtonsHell />
+            <Footer />
         </>
     )
 }
