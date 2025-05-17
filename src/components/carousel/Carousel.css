@@ -16,7 +16,7 @@
 .carousel-controls {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 5%;
     margin-top: -16px;
     padding: 0;
 }
